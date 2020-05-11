@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:background="@drawable/xuanxiang_geshi_di" android:layout_width="450dp" android:layout_height="wrap_content">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true">
+        <RadioGroup android:orientation="vertical" android:id="@+id/language_type" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </ScrollView>
+</RelativeLayout>

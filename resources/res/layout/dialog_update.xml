@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:background="@drawable/set_di2" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/versionLayout" android:paddingLeft="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="120dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/content_textsize" android:textStyle="italic" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/curType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:lineSpacingMultiplier="1.3"/>
+            <TextView android:textSize="@dimen/content_textsize" android:textStyle="italic" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/curInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_check_had_upgrade_file" android:lineSpacingMultiplier="1.3"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <Button android:textSize="@dimen/content_textsize" android:textColor="#ffffffff" android:id="@+id/affirmBtn" android:background="@drawable/bt_selector_comm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="@string/name_btn_affirm"/>
+            <Button android:textSize="@dimen/content_textsize" android:textColor="#ffffffff" android:id="@+id/cancelBtn" android:background="@drawable/bt_selector_comm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_btn_cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

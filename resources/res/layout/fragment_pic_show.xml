@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ll" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/pic_fl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="60dp">
+        <ImageView android:id="@+id/pic_fliv" android:background="@drawable/heidi" android:layout_width="800dp" android:layout_height="400dp" android:layout_marginTop="50dp" android:scaleType="centerInside"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/muen_pic" android:background="@drawable/tupian_xia_di" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@+id/fangda" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_fangda" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/suoxiao" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_suoxiao" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/shang_pic" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_shang" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/pic_bofang" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_bofang" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/xia_pic" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_xia" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/zuoxuan" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_xuanzhuanl" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/youxuan" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_xuanzhuanr" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/pic_caidan" android:background="@drawable/bt_selector_tupian_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/tupian_xia_caidan" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:textSize="20sp" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/pic_name" android:focusable="true" android:layout_width="300dp" android:layout_height="48dp" android:layout_marginLeft="10dp" android:text="tupian" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+    </FrameLayout>
+</LinearLayout>

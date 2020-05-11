@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/loading_bg" android:layout_width="415dp" android:layout_height="147dp">
+    <TextView android:textSize="30sp" android:textStyle="italic" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/curLoadingTview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="20dp" android:text="@string/msg_bluetooth_loading"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/handup" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="74dp" android:src="@drawable/bt_selector_num_end" android:scaleType="centerInside"/>
+</FrameLayout>

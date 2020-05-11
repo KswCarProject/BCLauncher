@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@drawable/yinliang_floor" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="150dp" android:layout_marginTop="27dp" android:src="@drawable/yinliang_jindutiao_n"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="25sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/sound_tv" android:layout_width="50dp" android:layout_height="match_parent" android:layout_marginLeft="30dp" android:layout_marginTop="22dp" android:text="0"/>
+            <ImageView android:gravity="center_vertical" android:id="@+id/sound_jianjian" android:clickable="true" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:src="@drawable/bt_selector_soundjianjian"/>
+            <SeekBar android:id="@+id/sound_seekbar" android:layout_width="220dp" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginTop="30dp" android:maxHeight="22dp" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/video_toolbar_sb_style" android:minHeight="22dp" android:thumb="@null" android:thumbOffset="0dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+            <ImageView android:gravity="center_vertical" android:id="@+id/sound_add" android:clickable="true" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginLeft="30dp" android:layout_marginTop="25dp" android:src="@drawable/bt_selector_soundadd"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

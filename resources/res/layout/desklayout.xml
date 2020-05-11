@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/float_bg1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/right_push" android:layout_width="24dp" android:layout_height="24dp" android:scaleType="centerInside" android:alpha="0.5"/>
+    <ImageView android:id="@+id/home" android:layout_width="140dp" android:layout_height="60dp" android:src="@drawable/bt_selector_home" android:scaleType="centerInside" android:alpha="0.8"/>
+    <ImageView android:id="@+id/back" android:layout_width="140dp" android:layout_height="60dp" android:src="@drawable/bt_selector_back" android:scaleType="centerInside" android:alpha="0.8"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/bg_upgrade_layout" android:layout_width="542dp" android:layout_height="243dp">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+            <TextView android:textSize="40sp" android:textStyle="italic" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/curInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msg_check_had_upgrade_file" android:lineSpacingMultiplier="1.3"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <Button android:textSize="30sp" android:textColor="#ffffffff" android:id="@+id/affirmBtn" android:background="@drawable/bg_upgrade_btn_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="111dp" android:text="@string/name_btn_affirm"/>
+            <Button android:textSize="30sp" android:textColor="#ffffffff" android:id="@+id/cancelBtn" android:background="@drawable/bg_upgrade_btn_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text="@string/name_btn_cancel"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

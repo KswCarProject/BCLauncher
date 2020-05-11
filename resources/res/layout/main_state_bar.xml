@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/state_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="7dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/state_bar_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <ImageView android:id="@+id/state_bar_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:src="@drawable/top_4g4"/>
+        <ImageView android:id="@+id/state_bar_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:src="@drawable/top_wifi4"/>
+        <ImageView android:id="@+id/state_bar_usb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:src="@drawable/selector_state_bar_usb1"/>
+        <ImageView android:id="@+id/state_bar_usb2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:src="@drawable/selector_state_bar_usb2"/>
+        <ImageView android:id="@+id/state_bar_usb3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:src="@drawable/selector_state_bar_usb3"/>
+        <ImageView android:id="@+id/state_bar_sd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:src="@drawable/selector_state_bar_sd"/>
+        <ImageView android:id="@+id/state_bar_bluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26dp" android:src="@drawable/selector_state_bar_bt"/>
+        <ImageView android:id="@+id/state_bar_gps" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="20dp" android:src="@drawable/selector_state_bar_gps"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/state_bar_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:foregroundGravity="right">
+        <TextView android:textSize="20sp" android:textColor="#ffffffff" android:id="@+id/state_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginRight="30dp" android:text="12:00"/>
+        <TextView android:textSize="20sp" android:textColor="#ffffffff" android:id="@+id/state_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginRight="20dp" android:text="2017/05/20"/>
+    </LinearLayout>
+</RelativeLayout>

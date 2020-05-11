@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/car_headlamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/car_headlamp" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/car_lamplet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/car_lamplet" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/car_body" android:layout_width="106dp" android:layout_height="230dp" android:src="@drawable/cardoor_normal" android:layout_below="@+id/car_headlamp" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/car_bonnet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/car_bonnet" android:layout_below="@+id/car_headlamp" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/car_lf_door" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="-16dp" android:src="@drawable/car_lf_door" android:layout_toLeftOf="@+id/car_bonnet" android:layout_below="@+id/car_bonnet"/>
+        <ImageView android:id="@+id/car_rf_door" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-16dp" android:layout_marginTop="10dp" android:src="@drawable/car_rf_door" android:layout_toRightOf="@+id/car_bonnet" android:layout_below="@+id/car_bonnet"/>
+        <ImageView android:id="@+id/car_lb_door" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-16dp" android:src="@drawable/car_lb_door" android:layout_toLeftOf="@+id/car_bonnet" android:layout_below="@+id/car_lf_door"/>
+        <ImageView android:id="@+id/car_rb_door" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-16dp" android:src="@drawable/car_rb_door" android:layout_toRightOf="@+id/car_bonnet" android:layout_below="@+id/car_lf_door"/>
+        <ImageView android:id="@+id/car_rearbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:src="@drawable/car_rearbox" android:layout_alignBottom="@+id/car_body" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/car_stoplight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-5dp" android:src="@drawable/car_stoplight" android:layout_alignBottom="@+id/car_body" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/warning_ll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <com.touchus.benchilauncher.views.CarWarnInfoView android:id="@+id/car_remainkon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp"/>
+        <com.touchus.benchilauncher.views.CarWarnInfoView android:id="@+id/car_safety_belt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp"/>
+        <com.touchus.benchilauncher.views.CarWarnInfoView android:id="@+id/car_outsidetemp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp"/>
+        <com.touchus.benchilauncher.views.CarWarnInfoView android:id="@+id/car_brake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp"/>
+    </LinearLayout>
+</LinearLayout>

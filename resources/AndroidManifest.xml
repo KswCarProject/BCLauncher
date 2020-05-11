@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="11" android:versionName="V2.0.2.0524a" package="com.touchus.benchilauncher" platformBuildVersionCode="17" platformBuildVersionName="4.2.2-1425461">
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="19"/>
+    <application android:theme="@style/Theme.NoTitleBar.Fullscreen" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="com.touchus.benchilauncher.LauncherApplication" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:name=".Launcher" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="mcc|mnc|keyboard|keyboardHidden|orientation" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.touchus.benchilauncher.MainService"/>
+        <service android:name="com.touchus.benchilauncher.service.BluetoothService"/>
+        <service android:name="com.touchus.benchilauncher.service.SocketService"/>
+        <receiver android:name="com.touchus.benchilauncher.receiver.UsbBroadcastReceiver">
+            <intent-filter android:priority="800">
+                <action android:name="android.intent.action.MEDIA_SCANNER_STARTED"/>
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED"/>
+                <action android:name="android.intent.action.MEDIA_CHECKING"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_EJECT"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.touchus.benchilauncher.service.TimaService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.broadfly.settings.ISettingsService"/>
+            </intent-filter>
+        </service> ]\10
+        <receiver android:name="com.touchus.benchilauncher.receiver.ChangeMenuReceiver">
+            <intent-filter>
+                <action android:name="com.unibroad.menu.changeMenu"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.touchus.benchilauncher.receiver.MusicControlReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.touchus.benchilauncher.receiver.GuideInfoReceiver">
+            <intent-filter>
+                <action android:name="AUTONAVI_STANDARD_BROADCAST_SEND"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.touchus.benchilauncher.receiver.AdressInfoReceiver">
+            <intent-filter>
+                <action android:name="com.unibroad.notifyserive.gps.broadcast"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.touchus.benchilauncher.receiver.PapagoAudioReceiver">
+            <intent-filter>
+                <action android:name="com.unbroad.AudioFocus.PAPAGOGAIN"/>
+                <action android:name="com.unbroad.AudioFocus.PAPAGOLOSS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.touchus.benchilauncher.receiver.PublibReceiver">
+            <intent-filter>
+                <action android:name="com.unibroad.mail"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

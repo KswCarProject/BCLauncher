@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.touchus.benchilauncher.views.LoopRotarySwitchView android:gravity="center_horizontal" android:id="@+id/mLoopRotarySwitchView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:src="@drawable/zi_di"/>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="125dp" android:src="@drawable/beijintiao"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="170dp">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_menu_xia" android:layout_width="196dp" android:layout_height="200dp" android:src="@drawable/cd"/>
+        <TextView android:textSize="30dp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@+id/currentPalyInfo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

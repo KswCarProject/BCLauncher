@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/xuanxiang_geshi_di" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ListView android:id="@+id/list" android:layout_width="500dp" android:layout_height="wrap_content" android:layout_margin="30dp" android:listSelector="@drawable/bt_selector_setting_item_beijing" android:divider="@android:color/transparent" android:dividerHeight="10dp"/>
+</LinearLayout>

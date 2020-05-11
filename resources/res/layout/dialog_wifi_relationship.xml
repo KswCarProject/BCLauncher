@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/loading_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="5">
+    <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="0.3"/>
+    <TextView android:textSize="28sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/titleName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="2dp"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="1dp" android:src="@drawable/hongtiao" android:scaleType="fitXY" android:contentDescription="@null"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="5dp" android:layout_weight="3.5">
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="2"/>
+        <TextView android:textSize="@dimen/info_textsize" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/showInfo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:textSize="@dimen/info_textsize" android:textColor="#ffffffff" android:id="@+id/pwdEdit" android:background="@drawable/shape_bg_edit" android:paddingLeft="12dp" android:layout_width="0dp" android:layout_height="35sp" android:hint="@string/msg_input_pwd" android:layout_weight="6" android:inputType="textPassword"/>
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="2"/>
+    </LinearLayout>
+    <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="0.2"/>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="0.8"/>
+        <Button android:textSize="20sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/joinBtn" android:background="@drawable/selector_btn_number" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.6"/>
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="0.8"/>
+    </LinearLayout>
+    <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="0.8"/>
+</LinearLayout>

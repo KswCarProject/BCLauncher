@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_left_width">380dp</dimen>
+    <dimen name="main_width">1024dp</dimen>
+    <dimen name="main_right_width">650dp</dimen>
+    <dimen name="main_height">540dp</dimen>
+    <dimen name="setting_hight">52dp</dimen>
+    <dimen name="setting_textsize">19sp</dimen>
+    <dimen name="content_textsize">19sp</dimen>
+    <dimen name="info_textsize">19sp</dimen>
+</resources>

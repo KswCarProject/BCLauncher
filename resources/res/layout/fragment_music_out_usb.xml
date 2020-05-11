@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/lloo" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="70dp" android:layout_marginBottom="70dp">
+        <ListView android:id="@+id/listview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:listSelector="@drawable/bt_selector_music_list" android:divider="@android:color/transparent" android:dividerHeight="2dp"/>
+    </LinearLayout>
+    <TextView android:textSize="32sp" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/norecord" android:padding="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_media_data"/>
+</FrameLayout>

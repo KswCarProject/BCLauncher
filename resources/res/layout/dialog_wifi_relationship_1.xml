@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/loading_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="5">
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3.5">
+        <TextView android:textSize="@dimen/content_textsize" android:textColor="#ffffffff" android:id="@+id/titleName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    <Space android:layout_width="1dp" android:layout_height="0dp" android:layout_weight="0.2"/>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="0.8"/>
+        <Button android:textSize="@dimen/content_textsize" android:textColor="#ffffffff" android:id="@+id/submitBtn" android:background="@drawable/selector_btn_number" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.3"/>
+        <Space android:id="@+id/centerSpace" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="0.6"/>
+        <Button android:textSize="@dimen/content_textsize" android:textColor="#ffffffff" android:id="@+id/canceBtn" android:background="@drawable/selector_btn_number" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.3"/>
+        <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="0.8"/>
+    </LinearLayout>
+</LinearLayout>

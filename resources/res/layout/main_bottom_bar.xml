@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/btm_di" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:id="@+id/buttom_home_img" android:background="@null" android:layout_width="140dp" android:layout_height="60dp" android:src="@drawable/bt_selector_home" android:scaleType="centerInside"/>
+    <ImageButton android:id="@+id/buttom_back" android:background="@null" android:layout_width="140dp" android:layout_height="60dp" android:src="@drawable/bt_selector_back" android:scaleType="centerInside"/>
+    <ImageButton android:id="@+id/button_daytime" android:background="@null" android:visibility="visible" android:layout_width="140dp" android:layout_height="60dp" android:src="@drawable/bt_selector_screen_close_open" android:scaleType="centerInside"/>
+    <TextView android:textSize="30sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/air_state" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/air_state"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/tempLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="26sp" android:textColor="#ffffffff" android:id="@+id/buttom_temp_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="28℃" android:singleLine="true"/>
+        <ImageView android:id="@+id/buttom_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:src="@drawable/fenpei_auto_n"/>
+        <ImageView android:id="@+id/button_ac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:src="@drawable/btm_autoac"/>
+        <ImageView android:id="@+id/buttom_airfan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:src="@drawable/liuliang_2"/>
+        <ImageView android:id="@+id/buttom_max" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/buttom_bar_front_wind_max"/>
+        <TextView android:textSize="26sp" android:textColor="#ffffffff" android:id="@+id/buttom_temp_r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:src="@drawable/btm_home_n" android:text="28℃"/>
+    </LinearLayout>
+</LinearLayout>

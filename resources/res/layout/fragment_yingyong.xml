@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:src="@drawable/fm_tiao_s"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="387dp" android:src="@drawable/fm_tiao_x"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager android:id="@+id/app_viewpager" android:layout_width="wrap_content" android:layout_height="300dp" android:layout_marginLeft="88dp" android:layout_marginTop="95dp" android:fadeScrollbars="true"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/dot_container" android:layout_width="match_parent" android:layout_height="30dp" android:layout_marginTop="400dp"/>
+    </RelativeLayout>
+</FrameLayout>

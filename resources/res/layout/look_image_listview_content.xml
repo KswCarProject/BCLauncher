@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/pic_beijing" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/picture_list_content_iv_pic" android:layout_width="170dp" android:layout_height="150dp" android:layout_marginLeft="15dp"/>
+    <TextView android:textSize="25dp" android:textColor="@android:color/white" android:id="@+id/picture_list_content_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="70dp"/>
+</LinearLayout>

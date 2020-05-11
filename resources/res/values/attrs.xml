@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="orientation" format="integer">
+        <enum name="horizontal" value="1" />
+        <enum name="vertical" value="0" />
+    </attr>
+    <attr name="autoRotation" format="boolean">
+    </attr>
+    <attr name="r" format="dimension">
+    </attr>
+    <attr name="direction" format="integer">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+    </attr>
+    <attr name="clock" format="reference">
+    </attr>
+    <attr name="hour" format="reference">
+    </attr>
+    <attr name="minute" format="reference">
+    </attr>
+    <attr name="second" format="reference">
+    </attr>
+    <attr name="center_clock" format="reference">
+    </attr>
+    <attr name="bgimage" format="reference">
+    </attr>
+    <attr name="centerimage" format="reference">
+    </attr>
+    <attr name="point" format="reference">
+    </attr>
+    <attr name="soundvalue" format="integer">
+    </attr>
+    <attr name="iselect" format="boolean">
+    </attr>
+    <attr name="icon" format="reference">
+    </attr>
+    <attr name="text" format="reference">
+    </attr>
+</resources>

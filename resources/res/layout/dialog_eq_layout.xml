@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/set_di2" android:padding="20dp" android:layout_width="460dp" android:layout_height="480dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/eq_layout" android:layout_width="match_parent" android:layout_height="378dp"/>
+    <ImageView android:background="@drawable/eq_verbg" android:layout_width="match_parent" android:layout_height="258dp" android:layout_marginTop="60dp"/>
+    <HorizontalScrollView android:id="@+id/hscrollview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/eq_layout">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/eq_model" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    </HorizontalScrollView>
+</RelativeLayout>

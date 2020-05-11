@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="60dp">
+    <Space android:id="@+id/layoutSpace" android:layout_width="1dp" android:layout_height="1dp"/>
+    <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.2">
+        <ImageView android:id="@+id/selectItem" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/icon_checkbox_select_1" android:scaleType="centerInside" android:contentDescription="@null"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/loadingItem" android:background="@anim/progress_round_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:contentDescription="@null"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/content_textsize" android:textColor="@android:color/white" android:id="@+id/nameItem" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5.1"/>
+    <ImageView android:id="@+id/signItem" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/layerlist_wifi_sign" android:scaleType="centerInside" android:layout_weight="1.5" android:contentDescription="@null"/>
+    <Space android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="0.2"/>
+</LinearLayout>

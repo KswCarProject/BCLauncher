@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray1">#ff2e2e2e</color>
+    <color name="gray2">#222e2e2e</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff303f9f</color>
+    <color name="colorAccent">#ffff4081</color>
+    <color name="colortransparent">#00ffffff</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ff000000</color>
+    <color name="point1">#803f99f6</color>
+    <color name="point2">#8098bf50</color>
+    <color name="point3">#80f67b7b</color>
+    <color name="point4">#80ff4081</color>
+    <color name="point5">#80303f9f</color>
+    <color name="white">#fffffffb</color>
+    <color name="color_45c01a">#ffe4d60e</color>
+    <color name="gray">#ff888888</color>
+    <color name="white_text">#ffffffff</color>
+    <color name="orange_text">#ffeaad54</color>
+    <color name="gray_text">#55ffffff</color>
+    <color name="color_33black">#33000000</color>
+</resources>

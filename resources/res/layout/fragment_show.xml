@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/show" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fl_surfaceview" android:layout_width="800dp" android:layout_height="match_parent" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent">
+            <SurfaceView android:id="@+id/videoSurfaceView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/vedio_pause" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="155dp" android:src="@drawable/video_pause"/>
+        <ImageButton android:layout_gravity="left" android:id="@+id/fangsuoshipin" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160dp" android:src="@drawable/bt_selector_suofang"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dibu_caidan" android:layout_width="800dp" android:layout_height="wrap_content" android:layout_marginTop="350dp" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/video_layout" android:background="@drawable/jindutiaodi" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:background="@drawable/shipin_xia_di" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@+id/vedio_sound" android:background="@drawable/bt_selector_ship_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_sound" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/zuoshengdao" android:background="@drawable/bt_selector_ship_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_tingzhi" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/vedio_shang" android:background="@drawable/bt_selector_ship_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_shang" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/vedio_bofang" android:background="@drawable/bt_selector_ship_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_zanting" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/vedio_xia" android:background="@drawable/bt_selector_ship_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_xia" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/youshengdao" android:background="@drawable/bt_selector_ship_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_10" android:layout_weight="1"/>
+            <ImageButton android:id="@+id/vedio_caidan" android:background="@drawable/bt_selector_ship_item_beijing" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_caidan" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:id="@+id/seek_bar_beijing" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="358dp" android:layout_marginRight="74dp">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/jindutiao_ship_n"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@+id/video_toolbar_rlPlayProg" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="34dp" android:layout_marginTop="350dp" android:layout_marginRight="10dp">
+        <TextView android:textSize="12sp" android:textColor="#fff5f5f5" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/video_toolbar_time_bofang" android:layout_width="70dp" android:layout_height="34dp" android:text="40:00"/>
+        <SeekBar android:id="@+id/video_toolbar_time_seekbar" android:layout_width="613dp" android:layout_height="11dp" android:layout_marginTop="10dp" android:layout_marginBottom="20dp" android:maxHeight="10dp" android:max="100" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/video_toolbar_ship_style" android:minHeight="10dp" android:thumb="@null" android:thumbOffset="0dp" android:layout_centerVertical="true"/>
+        <TextView android:textSize="12sp" android:textColor="#fff5f5f5" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/video_toolbar_time_zong" android:layout_width="70dp" android:layout_height="34dp" android:text="00:00"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/name_paomadeng" android:layout_width="480dp" android:layout_height="48dp" android:layout_marginLeft="490dp">
+        <com.touchus.benchilauncher.views.MyTextView android:textSize="20dp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/vedio_name" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+    </LinearLayout>
+</RelativeLayout>

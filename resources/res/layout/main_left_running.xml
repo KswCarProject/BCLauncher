@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="457dp" android:layout_height="match_parent">
+    <ImageView android:id="@+id/mainleft_weather_bk" android:background="@drawable/left_runnig_bk" android:layout_width="wrap_content" android:layout_height="258dp" android:layout_marginLeft="37dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="391dp" android:layout_height="258dp" android:layout_marginLeft="37dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/curSpeed_ll" android:visibility="gone" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="56dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/left_runnig_speed"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="130dp" android:layout_height="wrap_content" android:text="@string/running_curspeed"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:id="@+id/running_speed_none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/mileage_ll" android:visibility="gone" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="19dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/left_runnig_remainder"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="130dp" android:layout_height="wrap_content" android:text="@string/running_remain_distance"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:id="@+id/running_remain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text=" km"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="19dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/left_runnig_sum"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="130dp" android:layout_height="wrap_content" android:text="@string/running_distance"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:id="@+id/running_sum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text=" km"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="19dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wg_xcdn_zhuansu"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="130dp" android:layout_height="wrap_content" android:text="@string/running_rotate_speed"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:id="@+id/running_zhuansu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text=" rpm"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="19dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wg_xcdn_wendu"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:gravity="right" android:layout_width="130dp" android:layout_height="wrap_content" android:text="@string/running_outside_temperature"/>
+            <TextView android:textSize="15sp" android:textColor="#ffffffff" android:id="@+id/running_temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:text=" rpm"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/running_speed_ll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="253dp" android:layout_marginTop="22dp">
+        <TextView android:textSize="74sp" android:textColor="#ffffffff" android:id="@+id/running_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0"/>
+        <TextView android:textSize="20sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="km/h"/>
+    </LinearLayout>
+</RelativeLayout>

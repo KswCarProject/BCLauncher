@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="NoAinimationTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation</item>
+    </style>
+    <style name="Animation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/out</item>
+    </style>
+    <style name="callphone_imageButton">
+        <item name="android:background">@color/colortransparent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="Time1DialogItem">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+    <style name="SettingDialogitem">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:background">@drawable/bt_selector_setting_item_beijing</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+    <style name="Time1DialogImage">
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/xuanxiang_xuankuang_n</item>
+    </style>
+    <style name="SettingDialogText">
+        <item name="android:textSize">@dimen/setting_textsize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+    <style name="Time2DialogItem">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">415dp</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+    <style name="DaohangDialogItem">
+        <item name="android:textSize">@dimen/content_textsize</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:background">@drawable/bt_selector_setting_item_beijing</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">53dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+    <style name="Time2DialogImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/xuanxiang_geshi_xuanzhong_n</item>
+    </style>
+    <style name="MyYiBiaoSuduStyle">
+        <item name="bgimage">@drawable/sudu_di</item>
+        <item name="centerimage">@drawable/sudu_xiaoyuan</item>
+        <item name="point">@drawable/sudu_zhizhen</item>
+    </style>
+    <style name="MyYiBiaoStyle">
+        <item name="bgimage">@drawable/zhuansu_di</item>
+        <item name="centerimage">@drawable/zhuansu_xiaoyuan</item>
+        <item name="point">@drawable/zhuansu_zhizhen</item>
+    </style>
+    <style name="MyClockStyle">
+        <item name="clock">@drawable/time_di</item>
+        <item name="hour">@drawable/time_shizhen</item>
+        <item name="minute">@drawable/time_fenzhen</item>
+        <item name="second">@drawable/sec_hand</item>
+        <item name="center_clock">@drawable/hand_center</item>
+    </style>
+    <style name="leftMainClock">
+        <item name="clock">@drawable/time_di</item>
+        <item name="hour">@drawable/icon_left_time_shizhen</item>
+        <item name="minute">@drawable/icon_left_time_fenzhen</item>
+    </style>
+    <style name="MyClockStyle11">
+        <item name="clock">@drawable/junheng_yuandi_h</item>
+        <item name="hour">@drawable/junheng_zhizhen_h</item>
+    </style>
+    <style name="MyClockStyle22">
+        <item name="clock">@drawable/junheng_yuandi_n</item>
+        <item name="hour">@drawable/junheng_zhizhen_n</item>
+    </style>
+    <style name="dialogStyle1">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="MainMenuText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">top|center_vertical</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+</resources>

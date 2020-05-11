@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/bg_call_phone_keys" android:paddingLeft="10dp" android:paddingTop="5dp" android:layout_width="480dp" android:layout_height="368dp">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_call_phone_keys_number_top" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:id="@+id/img_number_1" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_1" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_2" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_2" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_3" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_3" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_call_phone_keys_number_comm" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_weight="1">
+        <ImageView android:id="@+id/img_number_4" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_4" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_5" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_5" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_6" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_6" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_call_phone_keys_number_comm" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_weight="1">
+        <ImageView android:id="@+id/img_number_7" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_7" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_8" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_8" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_9" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_9" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_call_phone_keys_number_bottom" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_weight="1">
+        <ImageView android:id="@+id/img_number_star" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_xing" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_0" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_0" android:layout_weight="1"/>
+        <ImageView android:id="@+id/img_number_other" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/bt_selector_num_jin" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

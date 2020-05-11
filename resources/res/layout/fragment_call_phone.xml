@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:src="@drawable/fm_tiao_s"/>
+    <LinearLayout android:id="@+id/ll_conection_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="214dp" android:layout_marginTop="87dp">
+        <ImageView android:id="@+id/tv_callphone_bluetooth_stateimg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bt_zhuangtai2"/>
+        <TextView android:textSize="24sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/tv_callphone_bluetooth_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="153dp">
+        <ImageView android:id="@+id/soundswitch" android:visibility="invisible" android:layout_width="205dp" android:layout_height="wrap_content" android:src="@drawable/qiehuan2_n"/>
+        <ImageView android:background="@drawable/bt_shuru_tubiao" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="32sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/tv_callphone_number_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+        <TextView android:textSize="28sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/tv_callphone_connect_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="800dp" android:layout_height="124dp" android:layout_marginTop="235dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageButton android:id="@+id/bt_selector_num_send" android:layout_marginLeft="40dp" android:src="@drawable/bt_selector_num_send" style="@style/callphone_imageButton"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ll_callphone_number" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="123dp">
+            <ImageButton android:id="@+id/bt_selector_num_0" android:src="@drawable/bt_selector_num_0" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_1" android:layout_marginLeft="7dp" android:src="@drawable/bt_selector_num_1" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_2" android:layout_marginLeft="4dp" android:src="@drawable/bt_selector_num_2" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_3" android:layout_marginLeft="8dp" android:src="@drawable/bt_selector_num_3" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_4" android:layout_marginLeft="9dp" android:src="@drawable/bt_selector_num_4" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_5" android:layout_marginLeft="10dp" android:src="@drawable/bt_selector_num_5" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_6" android:layout_marginLeft="3dp" android:src="@drawable/bt_selector_num_6" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_7" android:layout_marginLeft="5dp" android:src="@drawable/bt_selector_num_7" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_8" android:layout_marginLeft="7dp" android:src="@drawable/bt_selector_num_8" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_9" android:layout_marginLeft="4dp" android:src="@drawable/bt_selector_num_9" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_xing" android:layout_marginLeft="7dp" android:src="@drawable/bt_selector_num_xing" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_jin" android:layout_marginLeft="11dp" android:src="@drawable/bt_selector_num_jin" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_jia" android:layout_marginLeft="14dp" android:src="@drawable/bt_selector_num_jia" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_clear" android:layout_marginLeft="13dp" android:src="@drawable/bt_selector_num_clear" style="@style/callphone_imageButton"/>
+            <ImageButton android:id="@+id/bt_selector_num_end" android:layout_marginLeft="14dp" android:src="@drawable/bt_selector_num_end" style="@style/callphone_imageButton"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bt_xia_di" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="365dp">
+        <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <Button android:textSize="@dimen/content_textsize" android:textColor="@color/color_white" android:id="@+id/bt_callphone_xia_connect" android:background="@drawable/bt_selector_callphone_xia" android:layout_width="200dp" android:layout_height="50dp" android:text="@string/string_setting_connect" android:drawableLeft="@drawable/bt_xia_link"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <Button android:textSize="@dimen/content_textsize" android:textColor="@color/color_white" android:id="@+id/bt_callphone_xia_record" android:background="@drawable/bt_selector_callphone_xia" android:layout_width="200dp" android:layout_height="50dp" android:text="@string/name_callphone_record" android:drawableLeft="@drawable/bt_xia_tonghuajilu"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <Button android:textSize="@dimen/content_textsize" android:textColor="@color/color_white" android:id="@+id/bt_callphone_xia_bluetooth" android:background="@drawable/bt_selector_callphone_xia" android:layout_width="200dp" android:layout_height="50dp" android:text="@string/name_callphone_book" android:drawableLeft="@drawable/bt_xia_dianhuaben"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

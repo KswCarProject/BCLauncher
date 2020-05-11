@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="800dp" android:layout_height="wrap_content">
+    <ListView android:id="@+id/listView_call_record" android:focusable="false" android:layout_width="match_parent" android:layout_height="370dp" android:layout_marginLeft="10dp" android:layout_marginTop="54dp" android:divider="#00000000" android:fastScrollEnabled="true"/>
+    <TextView android:textSize="32sp" android:textColor="@color/color_white" android:gravity="center" android:id="@+id/norecord" android:padding="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/no_call_record"/>
+</RelativeLayout>

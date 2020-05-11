@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="313dp" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center_vertical" android:id="@+id/itemView" android:layout_width="313dp" android:layout_height="52dp">
+        <TextView android:layout_gravity="center_vertical" android:id="@+id/itemtext" android:layout_marginLeft="65dp" android:text="@string/name_setting_sound" style="@style/SettingDialogText"/>
+    </LinearLayout>
+</FrameLayout>

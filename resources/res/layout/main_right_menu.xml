@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="7dp">
+    <com.touchus.benchilauncher.views.MenuSlide android:id="@+id/mainright_menu_slide" android:layout_width="782dp" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/mainright_menu_container" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </com.touchus.benchilauncher.views.MenuSlide>
+    <ImageView android:id="@+id/mainright_menu_point0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="348dp" android:layout_marginTop="395dp" android:src="@drawable/selector_point_menu"/>
+    <ImageView android:id="@+id/mainright_menu_point1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="398dp" android:layout_marginTop="395dp" android:src="@drawable/selector_point_menu"/>
+    <ImageView android:id="@+id/mainright_menu_point2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="448dp" android:layout_marginTop="395dp" android:src="@drawable/selector_point_menu"/>
+</RelativeLayout>

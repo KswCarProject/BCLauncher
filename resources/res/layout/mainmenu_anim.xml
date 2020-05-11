@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/a0" android:background="@drawable/main_radio_n" android:layout_width="138dp" android:layout_height="148dp" android:layout_marginTop="163dp">
+            <TextView android:id="@+id/txt0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="收音机" style="@style/MainMenuText"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/a1" android:background="@drawable/main_radio_n" android:layout_width="138dp" android:layout_height="148dp" android:layout_marginTop="163dp">
+            <TextView android:id="@+id/txt1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="收音机" style="@style/MainMenuText"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/a2" android:background="@drawable/main_radio_h" android:layout_width="230dp" android:layout_height="250dp" android:layout_marginTop="119dp">
+            <TextView android:textSize="30dp" android:id="@+id/txt2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="收音机" style="@style/MainMenuText"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/a3" android:background="@drawable/main_radio_n" android:layout_width="138dp" android:layout_height="148dp" android:layout_marginTop="163dp">
+            <TextView android:id="@+id/txt3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="收音机" style="@style/MainMenuText"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/a4" android:background="@drawable/main_radio_n" android:layout_width="138dp" android:layout_height="148dp" android:layout_marginTop="163dp">
+            <TextView android:id="@+id/txt4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="收音机" style="@style/MainMenuText"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

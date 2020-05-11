@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/tishi_floor" android:layout_width="700dp" android:layout_height="235dp">
+    <LinearLayout android:gravity="center" android:layout_width="130dp" android:layout_height="130dp" android:layout_marginRight="30dp" android:layout_toLeftOf="@+id/phonenum" android:layout_centerVertical="true">
+        <ImageButton android:id="@+id/img_dialog_send" android:src="@drawable/bt_selector_num_send" style="@style/callphone_imageButton"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/phonenum" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="28sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_dialog_yunyingshang" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="32sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_dialog_phoneNum" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="130dp" android:layout_height="130dp" android:layout_marginLeft="30dp" android:layout_toRightOf="@+id/phonenum" android:layout_centerVertical="true">
+        <ImageButton android:id="@+id/img_dialog_end" android:src="@drawable/bt_selector_num_end" style="@style/callphone_imageButton"/>
+    </LinearLayout>
+</RelativeLayout>

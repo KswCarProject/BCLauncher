@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.touchus.benchilauncher.views.YiBiaoView android:id="@+id/yibiao_sudu" android:layout_width="378dp" android:layout_height="378dp" android:layout_marginLeft="56dp" android:layout_marginTop="38dp" android:layout_alignParentLeft="true" style="@style/MyYiBiaoSuduStyle"/>
+    <com.touchus.benchilauncher.views.YiBiaoView android:id="@+id/yibiao_zhuansu" android:layout_width="378dp" android:layout_height="378dp" android:layout_marginTop="38dp" android:layout_marginRight="56dp" android:layout_alignParentRight="true" style="@style/MyYiBiaoStyle"/>
+    <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/yibiao_zhuansu" android:layout_toRightOf="@+id/yibiao_sudu" layout="@layout/fragment_car_state"/>
+</RelativeLayout>

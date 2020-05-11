@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="right" android:orientation="vertical" android:id="@+id/pop" android:layout_width="805dp" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/video_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/video_toolbar_rlPlayProg" android:background="@drawable/shipin_xia_di2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_weight="8" android:layout_toLeftOf="@+id/video_toolbar_btn_gyro" android:layout_toRightOf="@+id/video_toolbar_btn_playpause" android:layout_centerVertical="true">
+            <TextView android:textSize="12sp" android:textColor="#fff5f5f5" android:id="@+id/video_toolbar_time_zong" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60dp" android:text="00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <SeekBar android:id="@+id/video_toolbar_time_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="90dp" android:layout_marginRight="2dp" android:maxHeight="10dp" android:max="100" android:progress="0" android:secondaryProgress="0" android:progressDrawable="@drawable/video_toolbar_sb_style" android:minHeight="10dp" android:thumbOffset="0dp" android:layout_toLeftOf="@+id/video_toolbar_time_zong" android:layout_centerVertical="true"/>
+            <TextView android:textSize="12sp" android:textColor="#fff5f5f5" android:id="@+id/video_toolbar_time_bofang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60dp" android:text="40:00" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/shipin_xia_di" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/vedio_sound" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_sound" android:layout_weight="1"/>
+        <ImageButton android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_05" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/vedio_shang" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_shang" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/vedio_bofang" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_zanting" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/vedio_xia" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_xia" android:layout_weight="1"/>
+        <ImageButton android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_15" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/vedio_caidan" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/shipin_xia_caidan" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="60dp"/>
+</LinearLayout>

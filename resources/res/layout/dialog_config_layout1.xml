@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/xuanxiang_geshi_di" android:layout_width="450dp" android:layout_height="wrap_content">
+    <TextView android:textSize="20sp" android:textColor="@color/white_text" android:layout_width="400dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/name_config_set"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/play_model_layout" android:layout_width="400dp" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/content_textsize" android:textColor="@color/white_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_play_type"/>
+        <RadioGroup android:orientation="vertical" android:id="@+id/play_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp">
+            <RadioButton android:id="@+id/play_original" android:layout_width="match_parent" android:button="@drawable/setting_check_btn" android:text="@string/name_play_original" style="@style/DaohangDialogItem"/>
+            <RadioButton android:id="@+id/play_power_amplifier" android:layout_width="match_parent" android:button="@drawable/setting_check_btn" android:text="@string/name_play_power_amplifier" style="@style/DaohangDialogItem"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/stripe_layout" android:layout_width="400dp" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="400dp" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/content_textsize" android:textColor="@color/white_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_original_navi"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/original_navi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp">
+                <RadioButton android:id="@+id/navi_have" android:layout_width="0dp" android:button="@drawable/setting_check_btn" android:text="@string/name_have" android:layout_weight="1" style="@style/DaohangDialogItem"/>
+                <RadioButton android:id="@+id/navi_no" android:layout_width="0dp" android:button="@drawable/setting_check_btn" android:text="@string/name_not_have" android:layout_weight="1" style="@style/DaohangDialogItem"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="400dp" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/content_textsize" android:textColor="@color/white_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_connect_type"/>
+            <RadioGroup android:orientation="horizontal" android:id="@+id/connect_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp">
+                <RadioButton android:id="@+id/connect_BT" android:layout_width="110dp" android:button="@drawable/setting_check_btn" android:text="@string/name_connect_BT" style="@style/DaohangDialogItem"/>
+                <RadioButton android:id="@+id/connect_USB" android:layout_width="120dp" android:button="@drawable/setting_check_btn" android:text="@string/name_connect_USB" style="@style/DaohangDialogItem"/>
+                <RadioButton android:id="@+id/connect_AUX" android:layout_width="110dp" android:button="@drawable/setting_check_btn" android:text="@string/name_connect_AUX" style="@style/DaohangDialogItem"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="400dp" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="@dimen/content_textsize" android:textColor="@color/white_text" android:id="@+id/screen_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_screen_resolution" android:layout_centerVertical="true"/>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="400dp" android:layout_height="wrap_content">
+            <Spinner android:id="@+id/configure_model" android:background="@drawable/shape_bg_edit" android:layout_width="120dp" android:layout_height="50dp" android:layout_marginLeft="40dp" android:dropDownWidth="120dp" android:spinnerMode="dropdown"/>
+            <TextView android:textSize="@dimen/content_textsize" android:textColor="@color/white_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="140dp" android:text="▼" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

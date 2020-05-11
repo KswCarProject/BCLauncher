@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="457dp" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/cardoor_status1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/cardoor_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="174dp" android:layout_marginTop="125dp" android:src="@drawable/cardoor_normal"/>
+        <TextView android:textSize="30sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/doorsDesc" android:layout_width="128dp" android:layout_height="wrap_content" android:layout_marginLeft="174dp" android:layout_marginTop="85dp"/>
+        <ImageView android:id="@+id/cardoor_qian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="188dp" android:layout_marginTop="133dp" android:src="@drawable/cardoor_qian"/>
+        <ImageView android:id="@+id/cardoor_hou" android:layout_width="128dp" android:layout_height="wrap_content" android:layout_marginLeft="174dp" android:layout_marginTop="367dp" android:src="@drawable/cardoor_hou"/>
+        <ImageView android:id="@+id/cardoor_left1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="141dp" android:layout_marginTop="213dp" android:src="@drawable/cardoor_left1"/>
+        <ImageView android:id="@+id/cardoor_left2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="141dp" android:layout_marginTop="275dp" android:src="@drawable/cardoor_left2"/>
+        <ImageView android:id="@+id/cardoor_right1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="274dp" android:layout_marginTop="213dp" android:src="@drawable/cardoor_right1"/>
+        <ImageView android:id="@+id/cardoor_right2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="274dp" android:layout_marginTop="275dp" android:src="@drawable/cardoor_right2"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/cardoor_status2" android:layout_width="wrap_content" android:layout_height="395dp">
+        <ImageView android:id="@+id/cardoor_qian_open" android:visibility="visible" android:layout_width="440dp" android:layout_height="253dp" android:layout_marginLeft="1dp" android:layout_marginTop="142dp" android:src="@drawable/cardoor_qian_open"/>
+        <TextView android:textSize="30sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/doorDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginBottom="253dp" android:text="@string/msg_car_door_unclose" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>
